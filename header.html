@@ -1,0 +1,26 @@
+	<div class="headerDiv">
+		<a id="email" href="mailto:farb.robert@gmail.com">Let's Talk</a>
+		<img src="Logo.jpg" class="headerLogo" alt="Robert Farb blue Logo">
+		<nav>
+			<ul id="headLinks">
+				<li class="navList"><a href="index.php"  class="headerLink"
+				<?php
+					if ($fname == "index.php"){
+						echo "id = \"current\"";
+
+					}?>>Home</a></li>
+				<li class="navList"><a href="Biography.php" class="headerLink"
+				<?php
+					if ($fname == "Biography.php"){
+						echo "id = \"current\"";
+
+					}?>>Biography</a></li>
+				<li class="navList"><a href="http://mldu.people.si.umich.edu/GroupProject" class="headerLink">Group Project</a></li>
+				<li class="navList"><a href="gallery.php" class="headerLink"
+				<?php
+					if ($fname == "gallery.php"){
+						echo "id = \"current\"";
+					}?>>JS Gallery</a></li>
+			</ul>
+		</nav>
+	</div>
